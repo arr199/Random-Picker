@@ -1,0 +1,39 @@
+:root {
+  font-family: 'inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow: hidden;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  
+  --original-color : rgb(68, 134, 240) ; 
+  --hover-color : rgb(120, 167, 238) ; 
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a  {
+color: rgba(13, 13, 179, 0.973);
+
+}
+
+h1{
+ font-weight: bold;
+}
+
+.elements-hover:hover{
+  background-color: rgb(197, 21, 21)!important;
+}
+
